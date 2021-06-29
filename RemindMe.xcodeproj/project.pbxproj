@@ -1,0 +1,1140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7736177268AC79500531E85 /* RemindMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736176268AC79500531E85 /* RemindMeApp.swift */; };
+		F7736179268AC79500531E85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736178268AC79500531E85 /* ContentView.swift */; };
+		F773617B268AC79700531E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F773617A268AC79700531E85 /* Assets.xcassets */; };
+		F773617E268AC79700531E85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F773617D268AC79700531E85 /* Preview Assets.xcassets */; };
+		F7736189268AC79700531E85 /* RemindMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736188268AC79700531E85 /* RemindMeTests.swift */; };
+		F7736194268AC79700531E85 /* RemindMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736193268AC79700531E85 /* RemindMeUITests.swift */; };
+		F7736199268AC79700531E85 /* RemindMe WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F7736198268AC79700531E85 /* RemindMe WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F773619E268AC79700531E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F773619D268AC79700531E85 /* Assets.xcassets */; };
+		F77361A5268AC79700531E85 /* RemindMe WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F77361A4268AC79700531E85 /* RemindMe WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F77361AA268AC79700531E85 /* RemindMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361A9268AC79700531E85 /* RemindMeApp.swift */; };
+		F77361AC268AC79700531E85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361AB268AC79700531E85 /* ContentView.swift */; };
+		F77361AE268AC79700531E85 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361AD268AC79700531E85 /* NotificationController.swift */; };
+		F77361B0268AC79700531E85 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361AF268AC79700531E85 /* NotificationView.swift */; };
+		F77361B2268AC79700531E85 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361B1268AC79700531E85 /* ComplicationController.swift */; };
+		F77361B4268AC79800531E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77361B3268AC79800531E85 /* Assets.xcassets */; };
+		F77361B7268AC79800531E85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77361B6268AC79800531E85 /* Preview Assets.xcassets */; };
+		F77361C3268AC79800531E85 /* RemindMe_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361C2268AC79800531E85 /* RemindMe_WatchKit_AppTests.swift */; };
+		F77361CE268AC79800531E85 /* RemindMe_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361CD268AC79800531E85 /* RemindMe_WatchKit_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7736185268AC79700531E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F773616B268AC79500531E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7736172268AC79500531E85;
+			remoteInfo = RemindMe;
+		};
+		F7736190268AC79700531E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F773616B268AC79500531E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7736172268AC79500531E85;
+			remoteInfo = RemindMe;
+		};
+		F773619A268AC79700531E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F773616B268AC79500531E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7736197268AC79700531E85;
+			remoteInfo = "RemindMe WatchKit App";
+		};
+		F77361A6268AC79700531E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F773616B268AC79500531E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77361A3268AC79700531E85;
+			remoteInfo = "RemindMe WatchKit Extension";
+		};
+		F77361BF268AC79800531E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F773616B268AC79500531E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77361A3268AC79700531E85;
+			remoteInfo = "RemindMe WatchKit Extension";
+		};
+		F77361CA268AC79800531E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F773616B268AC79500531E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7736197268AC79700531E85;
+			remoteInfo = "RemindMe WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F77361D5268AC79800531E85 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F77361A5268AC79700531E85 /* RemindMe WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77361D9268AC79800531E85 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F7736199268AC79700531E85 /* RemindMe WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F7736173268AC79500531E85 /* RemindMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7736176268AC79500531E85 /* RemindMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeApp.swift; sourceTree = "<group>"; };
+		F7736178268AC79500531E85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F773617A268AC79700531E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F773617D268AC79700531E85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F773617F268AC79700531E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7736184268AC79700531E85 /* RemindMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7736188268AC79700531E85 /* RemindMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeTests.swift; sourceTree = "<group>"; };
+		F773618A268AC79700531E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F773618F268AC79700531E85 /* RemindMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7736193268AC79700531E85 /* RemindMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeUITests.swift; sourceTree = "<group>"; };
+		F7736195268AC79700531E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7736198268AC79700531E85 /* RemindMe WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RemindMe WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F773619D268AC79700531E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F773619F268AC79700531E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77361A4268AC79700531E85 /* RemindMe WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RemindMe WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77361A9268AC79700531E85 /* RemindMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeApp.swift; sourceTree = "<group>"; };
+		F77361AB268AC79700531E85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F77361AD268AC79700531E85 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F77361AF268AC79700531E85 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		F77361B1268AC79700531E85 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		F77361B3268AC79800531E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77361B6268AC79800531E85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F77361B8268AC79800531E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77361B9268AC79800531E85 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F77361BE268AC79800531E85 /* RemindMe WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RemindMe WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77361C2268AC79800531E85 /* RemindMe_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMe_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		F77361C4268AC79800531E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77361C9268AC79800531E85 /* RemindMe WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RemindMe WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77361CD268AC79800531E85 /* RemindMe_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMe_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		F77361CF268AC79800531E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7736170268AC79500531E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7736181268AC79700531E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F773618C268AC79700531E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77361A1268AC79700531E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77361BB268AC79800531E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77361C6268AC79800531E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F773616A268AC79500531E85 = {
+			isa = PBXGroup;
+			children = (
+				F7736175268AC79500531E85 /* RemindMe */,
+				F7736187268AC79700531E85 /* RemindMeTests */,
+				F7736192268AC79700531E85 /* RemindMeUITests */,
+				F773619C268AC79700531E85 /* RemindMe WatchKit App */,
+				F77361A8268AC79700531E85 /* RemindMe WatchKit Extension */,
+				F77361C1268AC79800531E85 /* RemindMe WatchKit AppTests */,
+				F77361CC268AC79800531E85 /* RemindMe WatchKit AppUITests */,
+				F7736174268AC79500531E85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7736174268AC79500531E85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7736173268AC79500531E85 /* RemindMe.app */,
+				F7736184268AC79700531E85 /* RemindMeTests.xctest */,
+				F773618F268AC79700531E85 /* RemindMeUITests.xctest */,
+				F7736198268AC79700531E85 /* RemindMe WatchKit App.app */,
+				F77361A4268AC79700531E85 /* RemindMe WatchKit Extension.appex */,
+				F77361BE268AC79800531E85 /* RemindMe WatchKit AppTests.xctest */,
+				F77361C9268AC79800531E85 /* RemindMe WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7736175268AC79500531E85 /* RemindMe */ = {
+			isa = PBXGroup;
+			children = (
+				F7736176268AC79500531E85 /* RemindMeApp.swift */,
+				F7736178268AC79500531E85 /* ContentView.swift */,
+				F773617A268AC79700531E85 /* Assets.xcassets */,
+				F773617F268AC79700531E85 /* Info.plist */,
+				F773617C268AC79700531E85 /* Preview Content */,
+			);
+			path = RemindMe;
+			sourceTree = "<group>";
+		};
+		F773617C268AC79700531E85 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F773617D268AC79700531E85 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7736187268AC79700531E85 /* RemindMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7736188268AC79700531E85 /* RemindMeTests.swift */,
+				F773618A268AC79700531E85 /* Info.plist */,
+			);
+			path = RemindMeTests;
+			sourceTree = "<group>";
+		};
+		F7736192268AC79700531E85 /* RemindMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7736193268AC79700531E85 /* RemindMeUITests.swift */,
+				F7736195268AC79700531E85 /* Info.plist */,
+			);
+			path = RemindMeUITests;
+			sourceTree = "<group>";
+		};
+		F773619C268AC79700531E85 /* RemindMe WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F773619D268AC79700531E85 /* Assets.xcassets */,
+				F773619F268AC79700531E85 /* Info.plist */,
+			);
+			path = "RemindMe WatchKit App";
+			sourceTree = "<group>";
+		};
+		F77361A8268AC79700531E85 /* RemindMe WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F77361A9268AC79700531E85 /* RemindMeApp.swift */,
+				F77361AB268AC79700531E85 /* ContentView.swift */,
+				F77361AD268AC79700531E85 /* NotificationController.swift */,
+				F77361AF268AC79700531E85 /* NotificationView.swift */,
+				F77361B1268AC79700531E85 /* ComplicationController.swift */,
+				F77361B3268AC79800531E85 /* Assets.xcassets */,
+				F77361B8268AC79800531E85 /* Info.plist */,
+				F77361B9268AC79800531E85 /* PushNotificationPayload.apns */,
+				F77361B5268AC79800531E85 /* Preview Content */,
+			);
+			path = "RemindMe WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F77361B5268AC79800531E85 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F77361B6268AC79800531E85 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F77361C1268AC79800531E85 /* RemindMe WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F77361C2268AC79800531E85 /* RemindMe_WatchKit_AppTests.swift */,
+				F77361C4268AC79800531E85 /* Info.plist */,
+			);
+			path = "RemindMe WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		F77361CC268AC79800531E85 /* RemindMe WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F77361CD268AC79800531E85 /* RemindMe_WatchKit_AppUITests.swift */,
+				F77361CF268AC79800531E85 /* Info.plist */,
+			);
+			path = "RemindMe WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7736172268AC79500531E85 /* RemindMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77361DA268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMe" */;
+			buildPhases = (
+				F773616F268AC79500531E85 /* Sources */,
+				F7736170268AC79500531E85 /* Frameworks */,
+				F7736171268AC79500531E85 /* Resources */,
+				F77361D9268AC79800531E85 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F773619B268AC79700531E85 /* PBXTargetDependency */,
+			);
+			name = RemindMe;
+			productName = RemindMe;
+			productReference = F7736173268AC79500531E85 /* RemindMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7736183268AC79700531E85 /* RemindMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77361DD268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMeTests" */;
+			buildPhases = (
+				F7736180268AC79700531E85 /* Sources */,
+				F7736181268AC79700531E85 /* Frameworks */,
+				F7736182268AC79700531E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7736186268AC79700531E85 /* PBXTargetDependency */,
+			);
+			name = RemindMeTests;
+			productName = RemindMeTests;
+			productReference = F7736184268AC79700531E85 /* RemindMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F773618E268AC79700531E85 /* RemindMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77361E0268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMeUITests" */;
+			buildPhases = (
+				F773618B268AC79700531E85 /* Sources */,
+				F773618C268AC79700531E85 /* Frameworks */,
+				F773618D268AC79700531E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7736191268AC79700531E85 /* PBXTargetDependency */,
+			);
+			name = RemindMeUITests;
+			productName = RemindMeUITests;
+			productReference = F773618F268AC79700531E85 /* RemindMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F7736197268AC79700531E85 /* RemindMe WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77361D6268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMe WatchKit App" */;
+			buildPhases = (
+				F7736196268AC79700531E85 /* Resources */,
+				F77361D5268AC79800531E85 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77361A7268AC79700531E85 /* PBXTargetDependency */,
+			);
+			name = "RemindMe WatchKit App";
+			productName = "RemindMe WatchKit App";
+			productReference = F7736198268AC79700531E85 /* RemindMe WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F77361A3268AC79700531E85 /* RemindMe WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77361D2268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMe WatchKit Extension" */;
+			buildPhases = (
+				F77361A0268AC79700531E85 /* Sources */,
+				F77361A1268AC79700531E85 /* Frameworks */,
+				F77361A2268AC79700531E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RemindMe WatchKit Extension";
+			productName = "RemindMe WatchKit Extension";
+			productReference = F77361A4268AC79700531E85 /* RemindMe WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		F77361BD268AC79800531E85 /* RemindMe WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77361E3268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMe WatchKit AppTests" */;
+			buildPhases = (
+				F77361BA268AC79800531E85 /* Sources */,
+				F77361BB268AC79800531E85 /* Frameworks */,
+				F77361BC268AC79800531E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77361C0268AC79800531E85 /* PBXTargetDependency */,
+			);
+			name = "RemindMe WatchKit AppTests";
+			productName = "RemindMe WatchKit AppTests";
+			productReference = F77361BE268AC79800531E85 /* RemindMe WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F77361C8268AC79800531E85 /* RemindMe WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77361E6268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMe WatchKit AppUITests" */;
+			buildPhases = (
+				F77361C5268AC79800531E85 /* Sources */,
+				F77361C6268AC79800531E85 /* Frameworks */,
+				F77361C7268AC79800531E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77361CB268AC79800531E85 /* PBXTargetDependency */,
+			);
+			name = "RemindMe WatchKit AppUITests";
+			productName = "RemindMe WatchKit AppUITests";
+			productReference = F77361C9268AC79800531E85 /* RemindMe WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F773616B268AC79500531E85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F7736172268AC79500531E85 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F7736183268AC79700531E85 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F7736172268AC79500531E85;
+					};
+					F773618E268AC79700531E85 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F7736172268AC79500531E85;
+					};
+					F7736197268AC79700531E85 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F77361A3268AC79700531E85 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F77361BD268AC79800531E85 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F77361A3268AC79700531E85;
+					};
+					F77361C8268AC79800531E85 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F7736197268AC79700531E85;
+					};
+				};
+			};
+			buildConfigurationList = F773616E268AC79500531E85 /* Build configuration list for PBXProject "RemindMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F773616A268AC79500531E85;
+			productRefGroup = F7736174268AC79500531E85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7736172268AC79500531E85 /* RemindMe */,
+				F7736183268AC79700531E85 /* RemindMeTests */,
+				F773618E268AC79700531E85 /* RemindMeUITests */,
+				F7736197268AC79700531E85 /* RemindMe WatchKit App */,
+				F77361A3268AC79700531E85 /* RemindMe WatchKit Extension */,
+				F77361BD268AC79800531E85 /* RemindMe WatchKit AppTests */,
+				F77361C8268AC79800531E85 /* RemindMe WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7736171268AC79500531E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F773617E268AC79700531E85 /* Preview Assets.xcassets in Resources */,
+				F773617B268AC79700531E85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7736182268AC79700531E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F773618D268AC79700531E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7736196268AC79700531E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F773619E268AC79700531E85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77361A2268AC79700531E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77361B7268AC79800531E85 /* Preview Assets.xcassets in Resources */,
+				F77361B4268AC79800531E85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77361BC268AC79800531E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77361C7268AC79800531E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F773616F268AC79500531E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7736179268AC79500531E85 /* ContentView.swift in Sources */,
+				F7736177268AC79500531E85 /* RemindMeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7736180268AC79700531E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7736189268AC79700531E85 /* RemindMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F773618B268AC79700531E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7736194268AC79700531E85 /* RemindMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77361A0268AC79700531E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77361AE268AC79700531E85 /* NotificationController.swift in Sources */,
+				F77361AC268AC79700531E85 /* ContentView.swift in Sources */,
+				F77361B2268AC79700531E85 /* ComplicationController.swift in Sources */,
+				F77361AA268AC79700531E85 /* RemindMeApp.swift in Sources */,
+				F77361B0268AC79700531E85 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77361BA268AC79800531E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77361C3268AC79800531E85 /* RemindMe_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77361C5268AC79800531E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77361CE268AC79800531E85 /* RemindMe_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7736186268AC79700531E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7736172268AC79500531E85 /* RemindMe */;
+			targetProxy = F7736185268AC79700531E85 /* PBXContainerItemProxy */;
+		};
+		F7736191268AC79700531E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7736172268AC79500531E85 /* RemindMe */;
+			targetProxy = F7736190268AC79700531E85 /* PBXContainerItemProxy */;
+		};
+		F773619B268AC79700531E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7736197268AC79700531E85 /* RemindMe WatchKit App */;
+			targetProxy = F773619A268AC79700531E85 /* PBXContainerItemProxy */;
+		};
+		F77361A7268AC79700531E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77361A3268AC79700531E85 /* RemindMe WatchKit Extension */;
+			targetProxy = F77361A6268AC79700531E85 /* PBXContainerItemProxy */;
+		};
+		F77361C0268AC79800531E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77361A3268AC79700531E85 /* RemindMe WatchKit Extension */;
+			targetProxy = F77361BF268AC79800531E85 /* PBXContainerItemProxy */;
+		};
+		F77361CB268AC79800531E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7736197268AC79700531E85 /* RemindMe WatchKit App */;
+			targetProxy = F77361CA268AC79800531E85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F77361D0268AC79800531E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F77361D1268AC79800531E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F77361D3268AC79800531E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RemindMe WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "RemindMe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xinyixiang.RemindMe.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		F77361D4268AC79800531E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RemindMe WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "RemindMe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xinyixiang.RemindMe.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		F77361D7268AC79800531E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				IBSC_MODULE = RemindMe_WatchKit_Extension;
+				INFOPLIST_FILE = "RemindMe WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = xinyixiang.RemindMe.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		F77361D8268AC79800531E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				IBSC_MODULE = RemindMe_WatchKit_Extension;
+				INFOPLIST_FILE = "RemindMe WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = xinyixiang.RemindMe.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		F77361DB268AC79800531E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RemindMe/Preview Content\"";
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RemindMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xinyixiang.RemindMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F77361DC268AC79800531E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RemindMe/Preview Content\"";
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RemindMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xinyixiang.RemindMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77361DE268AC79800531E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				INFOPLIST_FILE = RemindMeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xinyixiang.RemindMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemindMe.app/RemindMe";
+			};
+			name = Debug;
+		};
+		F77361DF268AC79800531E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				INFOPLIST_FILE = RemindMeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xinyixiang.RemindMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemindMe.app/RemindMe";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77361E1268AC79800531E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				INFOPLIST_FILE = RemindMeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xinyixiang.RemindMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemindMe;
+			};
+			name = Debug;
+		};
+		F77361E2268AC79800531E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				INFOPLIST_FILE = RemindMeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xinyixiang.RemindMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemindMe;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77361E4268AC79800531E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				INFOPLIST_FILE = "RemindMe WatchKit AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xinyixiang.RemindMe-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemindMe WatchKit Extension.appex/RemindMe WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		F77361E5268AC79800531E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				INFOPLIST_FILE = "RemindMe WatchKit AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xinyixiang.RemindMe-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemindMe WatchKit Extension.appex/RemindMe WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		F77361E7268AC79800531E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				INFOPLIST_FILE = "RemindMe WatchKit AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xinyixiang.RemindMe-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "RemindMe WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		F77361E8268AC79800531E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YQVFJX9X8;
+				INFOPLIST_FILE = "RemindMe WatchKit AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xinyixiang.RemindMe-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "RemindMe WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F773616E268AC79500531E85 /* Build configuration list for PBXProject "RemindMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77361D0268AC79800531E85 /* Debug */,
+				F77361D1268AC79800531E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77361D2268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMe WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77361D3268AC79800531E85 /* Debug */,
+				F77361D4268AC79800531E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77361D6268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMe WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77361D7268AC79800531E85 /* Debug */,
+				F77361D8268AC79800531E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77361DA268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77361DB268AC79800531E85 /* Debug */,
+				F77361DC268AC79800531E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77361DD268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77361DE268AC79800531E85 /* Debug */,
+				F77361DF268AC79800531E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77361E0268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77361E1268AC79800531E85 /* Debug */,
+				F77361E2268AC79800531E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77361E3268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMe WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77361E4268AC79800531E85 /* Debug */,
+				F77361E5268AC79800531E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77361E6268AC79800531E85 /* Build configuration list for PBXNativeTarget "RemindMe WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77361E7268AC79800531E85 /* Debug */,
+				F77361E8268AC79800531E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F773616B268AC79500531E85 /* Project object */;
+}
