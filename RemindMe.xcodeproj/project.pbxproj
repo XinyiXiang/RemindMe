@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F7736177268AC79500531E85 /* RemindMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736176268AC79500531E85 /* RemindMeApp.swift */; };
-		F7736179268AC79500531E85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736178268AC79500531E85 /* ContentView.swift */; };
+		F7736179268AC79500531E85 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736178268AC79500531E85 /* HomeView.swift */; };
 		F773617B268AC79700531E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F773617A268AC79700531E85 /* Assets.xcassets */; };
 		F773617E268AC79700531E85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F773617D268AC79700531E85 /* Preview Assets.xcassets */; };
 		F7736189268AC79700531E85 /* RemindMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736188268AC79700531E85 /* RemindMeTests.swift */; };
@@ -16,8 +16,6 @@
 		F7736199268AC79700531E85 /* RemindMe WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F7736198268AC79700531E85 /* RemindMe WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F773619E268AC79700531E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F773619D268AC79700531E85 /* Assets.xcassets */; };
 		F77361A5268AC79700531E85 /* RemindMe WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F77361A4268AC79700531E85 /* RemindMe WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F77361AA268AC79700531E85 /* RemindMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361A9268AC79700531E85 /* RemindMeApp.swift */; };
-		F77361AC268AC79700531E85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361AB268AC79700531E85 /* ContentView.swift */; };
 		F77361AE268AC79700531E85 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361AD268AC79700531E85 /* NotificationController.swift */; };
 		F77361B0268AC79700531E85 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361AF268AC79700531E85 /* NotificationView.swift */; };
 		F77361B2268AC79700531E85 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361B1268AC79700531E85 /* ComplicationController.swift */; };
@@ -25,6 +23,12 @@
 		F77361B7268AC79800531E85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77361B6268AC79800531E85 /* Preview Assets.xcassets */; };
 		F77361C3268AC79800531E85 /* RemindMe_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361C2268AC79800531E85 /* RemindMe_WatchKit_AppTests.swift */; };
 		F77361CE268AC79800531E85 /* RemindMe_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77361CD268AC79800531E85 /* RemindMe_WatchKit_AppUITests.swift */; };
+		F77E9789268AC8D8001C61A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736178268AC79500531E85 /* HomeView.swift */; };
+		F77E978A268AC8D9001C61A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736178268AC79500531E85 /* HomeView.swift */; };
+		F77E978C268AC8DE001C61A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736178268AC79500531E85 /* HomeView.swift */; };
+		F77E978D268AC8DF001C61A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736178268AC79500531E85 /* HomeView.swift */; };
+		F77E978E268AC8E0001C61A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736178268AC79500531E85 /* HomeView.swift */; };
+		F7C68E0D268AD30E00A4B4E4 /* RemindMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736176268AC79500531E85 /* RemindMeApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,7 +104,7 @@
 /* Begin PBXFileReference section */
 		F7736173268AC79500531E85 /* RemindMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7736176268AC79500531E85 /* RemindMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeApp.swift; sourceTree = "<group>"; };
-		F7736178268AC79500531E85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7736178268AC79500531E85 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F773617A268AC79700531E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F773617D268AC79700531E85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F773617F268AC79700531E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,8 +118,6 @@
 		F773619D268AC79700531E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F773619F268AC79700531E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F77361A4268AC79700531E85 /* RemindMe WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RemindMe WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F77361A9268AC79700531E85 /* RemindMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeApp.swift; sourceTree = "<group>"; };
-		F77361AB268AC79700531E85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F77361AD268AC79700531E85 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		F77361AF268AC79700531E85 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		F77361B1268AC79700531E85 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -209,7 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				F7736176268AC79500531E85 /* RemindMeApp.swift */,
-				F7736178268AC79500531E85 /* ContentView.swift */,
+				F7736178268AC79500531E85 /* HomeView.swift */,
 				F773617A268AC79700531E85 /* Assets.xcassets */,
 				F773617F268AC79700531E85 /* Info.plist */,
 				F773617C268AC79700531E85 /* Preview Content */,
@@ -255,8 +257,6 @@
 		F77361A8268AC79700531E85 /* RemindMe WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F77361A9268AC79700531E85 /* RemindMeApp.swift */,
-				F77361AB268AC79700531E85 /* ContentView.swift */,
 				F77361AD268AC79700531E85 /* NotificationController.swift */,
 				F77361AF268AC79700531E85 /* NotificationView.swift */,
 				F77361B1268AC79700531E85 /* ComplicationController.swift */,
@@ -544,7 +544,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7736179268AC79500531E85 /* ContentView.swift in Sources */,
+				F7736179268AC79500531E85 /* HomeView.swift in Sources */,
 				F7736177268AC79500531E85 /* RemindMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,6 +553,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77E978E268AC8E0001C61A5 /* HomeView.swift in Sources */,
 				F7736189268AC79700531E85 /* RemindMeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -561,6 +562,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77E978D268AC8DF001C61A5 /* HomeView.swift in Sources */,
 				F7736194268AC79700531E85 /* RemindMeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -570,9 +572,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F77361AE268AC79700531E85 /* NotificationController.swift in Sources */,
-				F77361AC268AC79700531E85 /* ContentView.swift in Sources */,
+				F7C68E0D268AD30E00A4B4E4 /* RemindMeApp.swift in Sources */,
+				F77E9789268AC8D8001C61A5 /* HomeView.swift in Sources */,
 				F77361B2268AC79700531E85 /* ComplicationController.swift in Sources */,
-				F77361AA268AC79700531E85 /* RemindMeApp.swift in Sources */,
 				F77361B0268AC79700531E85 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,6 +583,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77E978A268AC8D9001C61A5 /* HomeView.swift in Sources */,
 				F77361C3268AC79800531E85 /* RemindMe_WatchKit_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -589,6 +592,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77E978C268AC8DE001C61A5 /* HomeView.swift in Sources */,
 				F77361CE268AC79800531E85 /* RemindMe_WatchKit_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
