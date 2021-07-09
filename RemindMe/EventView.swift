@@ -6,18 +6,32 @@
 //
 
 import SwiftUI
+//import WatchKit
+
+// Add hosting controller
+//class HostingController: WKHostingController<EventView> {
+//    override var body: EventView {
+//        return EventView(hostingController: self)
+//    }
+//}
 
 struct EventView: View {
-    @State private var events: [Event] = [
-        Event(name: "Math Final", time: Date()),
-        Event(name: "French Lesson", time: Date())
-    ]
+    @State private var description: String = ""
+    @State private var isEditing: Bool = false
     
+    @State private var events: [Event] = [
+        
+    ]
     struct Event: Identifiable {
         let id = UUID()
-        let name: String
+        let description: TextField<Text>
         let time: Date
     }
+    
+    
+    //@State private var capturedText = ""
+        
+    //let hostingController: WKHostingController<Self>
     
     var body: some View{
         
@@ -31,10 +45,16 @@ struct EventView: View {
                                 content:{
                                     Button(
                                         action: {
-                                            events.append(createNewEvent(name: "Complete Framework Freestyle", time: Date()))
+                                            events.append(createNewEvent(description: TextField(
+                                                                                "Description",
+                                                                                text: $description
+                                                                            ){ isEditing in
+                                                                                self.isEditing = isEditing
+                                                                            }
+                                                                            ,time: Date()))
                                         },
                                         label: {
-                                            Text("Create new")
+                                            Text("Create New")
                                                 .background(Color.blue)
                                         })
                                 }
@@ -43,9 +63,9 @@ struct EventView: View {
 
                         ForEach(events) { event in
                             NavigationLink(
-                                destination: DetailView(eventName: event.name, eventDateAndTime: event.time),
+                                destination: DetailView(eventName: event.description, eventDateAndTime: event.time),
                                 label: {
-                                    Text(event.name)
+                                    event.description
                                 })
                         }
                 }
@@ -53,8 +73,8 @@ struct EventView: View {
         }
     }
     
-    func createNewEvent(name: String, time: Date) -> Event{
-        let newEvent = Event(name: name, time: time)
+    func createNewEvent(description: TextField<Text>, time: Date) -> Event{
+        let newEvent = Event(description: description, time: time)
         return newEvent
     }
 }

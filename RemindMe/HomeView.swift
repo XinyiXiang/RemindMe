@@ -12,7 +12,7 @@ struct HomeView: View {
     var body: some View {
         NavigationView{
             ScrollView{
-//                VStack{
+                VStack{
                     NavigationLink(
                         destination: EventView(),
                         label: {
@@ -34,20 +34,20 @@ struct HomeView: View {
                             Text("Sketches")
                         })
 
-                //}
+                }
             }
-            
+
         }
     }
 }
 
 struct DetailView: View {
-    var eventName: String
+    var eventName: TextField<Text>
     var eventDateAndTime: Date
         
     var body: some View {
         VStack {
-            Text(eventName)
+            eventName
             Text(eventDateAndTime, style: .time)
         }
     }
