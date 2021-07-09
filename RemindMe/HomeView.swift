@@ -10,11 +10,11 @@ import SwiftUI
 struct HomeView: View {
     
     var body: some View {
-        ScrollView{
-            NavigationView{
-                VStack{
+        NavigationView{
+            ScrollView{
+//                VStack{
                     NavigationLink(
-                        destination: NoteView(),
+                        destination: EventView(),
                         label: {
                             Text("Events")
                         })
@@ -29,12 +29,12 @@ struct HomeView: View {
                             Text("Notes")
                         })
                     NavigationLink(
-                        destination: NoteView(),
+                        destination: SketchView(),
                         label: {
                             Text("Sketches")
                         })
 
-                }
+                //}
             }
             
         }
@@ -53,56 +53,6 @@ struct DetailView: View {
     }
 }
 
-//struct EventView: View {
-//    @State private var events: [Event] = [
-//        Event(name: "Math Final", time: Date()),
-//        Event(name: "French Lesson", time: Date())
-//    ]
-//
-//    struct Event: Identifiable {
-//        let id = UUID()
-//        let name: String
-//        let time: Date
-//    }
-//
-//    var body: some View{
-//        Text("placeholder")
-        //NavigationView{
-//            List{
-//                Text("New Event")
-//                    .toolbar{
-//                        ToolbarItemGroup(
-//                            placement: .automatic,
-//                            content:{
-//                                Button(
-//                                    action: {
-//                                        events.append(createNewEvent(name: "Complete Framework Freestyle", time: Date()))
-//                                    },
-//                                    label: {
-//                                        Text("Create new")
-//                                            .background(Color.blue)
-//                                    })
-//                            }
-//                         )
-//                    }
-//
-//                    ForEach(events) { event in
-//                        NavigationLink(
-//                            destination: DetailView(eventName: event.name, eventDateAndTime: event.time),
-//                            label: {
-//                                Text(event.name)
-//                            })
-//                    }
-//            }
-        //}
-    //}
-    
-//    func createNewEvent(name: String, time: Date) -> Event{
-//        let newEvent = Event(name: name, time: time)
-//        return newEvent
-//    }
-//}
-
 
 struct IdeaView: View {
     var body: some View {
@@ -120,14 +70,15 @@ struct NoteView: View {
 
 struct SketchView: View {
     var body: some View {
-        Path { path in
-            let width: CGFloat = 20.0
-            let height = width
-            path.move(to: CGPoint(
-                        x: width * 0.50,
-                        y: height * 0.75))
-        }
-        .fill(Color.blue)
+//        Path { path in
+//            let width: CGFloat = 20.0
+//            let height = width
+//            path.move(to: CGPoint(
+//                        x: width * 0.50,
+//                        y: height * 0.75))
+//        }
+//        .fill(Color.blue)
+        Text("Test Sketch")
     }
 }
 

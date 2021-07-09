@@ -23,33 +23,31 @@ struct EventView: View {
         
         ScrollView {
             VStack {
-                NavigationView{
-                    List{
-                        Text("New Event")
-                            .toolbar{
-                                ToolbarItemGroup(
-                                    placement: .automatic,
-                                    content:{
-                                        Button(
-                                            action: {
-                                                events.append(createNewEvent(name: "Complete Framework Freestyle", time: Date()))
-                                            },
-                                            label: {
-                                                Text("Create new")
-                                                    .background(Color.blue)
-                                            })
-                                    }
-                                 )
-                            }
+                List{
+                    Text("New Event")
+                        .toolbar{
+                            ToolbarItemGroup(
+                                placement: .automatic,
+                                content:{
+                                    Button(
+                                        action: {
+                                            events.append(createNewEvent(name: "Complete Framework Freestyle", time: Date()))
+                                        },
+                                        label: {
+                                            Text("Create new")
+                                                .background(Color.blue)
+                                        })
+                                }
+                             )
+                        }
 
-                            ForEach(events) { event in
-                                NavigationLink(
-                                    destination: DetailView(eventName: event.name, eventDateAndTime: event.time),
-                                    label: {
-                                        Text(event.name)
-                                    })
-                            }
-                    }
+                        ForEach(events) { event in
+                            NavigationLink(
+                                destination: DetailView(eventName: event.name, eventDateAndTime: event.time),
+                                label: {
+                                    Text(event.name)
+                                })
+                        }
                 }
             }
         }
