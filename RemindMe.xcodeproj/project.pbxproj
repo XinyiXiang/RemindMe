@@ -28,6 +28,16 @@
 		F77E978C268AC8DE001C61A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736178268AC79500531E85 /* HomeView.swift */; };
 		F77E978D268AC8DF001C61A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736178268AC79500531E85 /* HomeView.swift */; };
 		F77E978E268AC8E0001C61A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736178268AC79500531E85 /* HomeView.swift */; };
+		F78C15472697C3DC005D5760 /* RemindMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736176268AC79500531E85 /* RemindMeApp.swift */; };
+		F78C15482697C3DC005D5760 /* RemindMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736176268AC79500531E85 /* RemindMeApp.swift */; };
+		F78C154A2697C948005D5760 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C15492697C948005D5760 /* EventView.swift */; };
+		F78C154B2697C99E005D5760 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C15492697C948005D5760 /* EventView.swift */; };
+		F78C154C2697C99F005D5760 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C15492697C948005D5760 /* EventView.swift */; };
+		F78C154D2697C9A0005D5760 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C15492697C948005D5760 /* EventView.swift */; };
+		F78C154E2697C9E3005D5760 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C15492697C948005D5760 /* EventView.swift */; };
+		F78C154F2697C9E3005D5760 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C15492697C948005D5760 /* EventView.swift */; };
+		F78C15502697C9E8005D5760 /* RemindMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736176268AC79500531E85 /* RemindMeApp.swift */; };
+		F78C15512697C9E9005D5760 /* RemindMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736176268AC79500531E85 /* RemindMeApp.swift */; };
 		F7C68E0D268AD30E00A4B4E4 /* RemindMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7736176268AC79500531E85 /* RemindMeApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -131,6 +141,7 @@
 		F77361C9268AC79800531E85 /* RemindMe WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RemindMe WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77361CD268AC79800531E85 /* RemindMe_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMe_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		F77361CF268AC79800531E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78C15492697C948005D5760 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +223,7 @@
 			children = (
 				F7736176268AC79500531E85 /* RemindMeApp.swift */,
 				F7736178268AC79500531E85 /* HomeView.swift */,
+				F78C15492697C948005D5760 /* EventView.swift */,
 				F773617A268AC79700531E85 /* Assets.xcassets */,
 				F773617F268AC79700531E85 /* Info.plist */,
 				F773617C268AC79700531E85 /* Preview Content */,
@@ -544,6 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78C154A2697C948005D5760 /* EventView.swift in Sources */,
 				F7736179268AC79500531E85 /* HomeView.swift in Sources */,
 				F7736177268AC79500531E85 /* RemindMeApp.swift in Sources */,
 			);
@@ -553,7 +566,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78C154B2697C99E005D5760 /* EventView.swift in Sources */,
 				F77E978E268AC8E0001C61A5 /* HomeView.swift in Sources */,
+				F78C15502697C9E8005D5760 /* RemindMeApp.swift in Sources */,
 				F7736189268AC79700531E85 /* RemindMeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,7 +577,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78C154C2697C99F005D5760 /* EventView.swift in Sources */,
 				F77E978D268AC8DF001C61A5 /* HomeView.swift in Sources */,
+				F78C15512697C9E9005D5760 /* RemindMeApp.swift in Sources */,
 				F7736194268AC79700531E85 /* RemindMeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,6 +591,7 @@
 				F77361AE268AC79700531E85 /* NotificationController.swift in Sources */,
 				F7C68E0D268AD30E00A4B4E4 /* RemindMeApp.swift in Sources */,
 				F77E9789268AC8D8001C61A5 /* HomeView.swift in Sources */,
+				F78C154D2697C9A0005D5760 /* EventView.swift in Sources */,
 				F77361B2268AC79700531E85 /* ComplicationController.swift in Sources */,
 				F77361B0268AC79700531E85 /* NotificationView.swift in Sources */,
 			);
@@ -583,8 +601,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78C15472697C3DC005D5760 /* RemindMeApp.swift in Sources */,
 				F77E978A268AC8D9001C61A5 /* HomeView.swift in Sources */,
 				F77361C3268AC79800531E85 /* RemindMe_WatchKit_AppTests.swift in Sources */,
+				F78C154E2697C9E3005D5760 /* EventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,8 +612,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78C15482697C3DC005D5760 /* RemindMeApp.swift in Sources */,
 				F77E978C268AC8DE001C61A5 /* HomeView.swift in Sources */,
 				F77361CE268AC79800531E85 /* RemindMe_WatchKit_AppUITests.swift in Sources */,
+				F78C154F2697C9E3005D5760 /* EventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
